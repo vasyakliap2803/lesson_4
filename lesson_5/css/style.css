@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../fonts/dm-sans-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../fonts/dm-sans-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {    
+  margin: 0;    
+  font-family: 'Poppins', sans-serif;   
+  background-color: #ffffff;   
+  padding: 100px 0;
+}
+/* Основний блок */
+.collection {    
+  width: 643px;    
+  background-color: #FFF3E3;    
+  margin: 0 auto;    
+  padding: 62px 43px 37px 39px;
+}
+/* New Arrival */
+.collection-label {    
+  margin: 0 0 4px 0;    
+  font-size: 16px;    
+  font-weight: 600;    
+  line-height: 24px;    
+  letter-spacing: 3px;    
+  color: #333333;
+}
+/* Заголовок */
+.collection-title {    
+  margin: 0 0 17px 0;    
+  font-size: 52px;    
+  font-weight: 700;    
+  line-height: 65px;    
+  color: #B88E2F;
+}
+/* Текст */
+.collection-text {    
+  margin: 0 0 46px 0;    
+  max-width: 546px;    
+  font-size: 18px;    
+  font-weight: 500;    
+  line-height: 24px;    
+  color: #333333;
+}
+/* Кнопка */
+.collection-button {    
+  display: inline-block;    
+  padding: 25px 72px;    
+  background-color: #B88E2F;    
+  color: #ffffff;    
+  text-decoration: none;    
+  font-size: 16px;    
+  font-weight: 700;    
+  line-height: 24px;
+}
+
+
+.practice {
+    max-width: 1100px;
+    margin: 100px auto;
+}
+
+.practice-title {
+    margin: 60px 0 20px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333333;
+}
+
+/* Блоки з padding */
+.box {
+    width: 100%;
+    background-color: #5EA45C;
+    margin-bottom: 30px;
+}
+
+.inner-box {
+    height: 120px;
+    background-color: #000000;
+}
+
+.padding-universal {
+    padding: 20px;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.padding-right {
+    padding-right: 45px;
+}
+
+.padding-bottom {
+    padding-bottom: 45px;
+}
+
+.padding-left {
+    padding-left: 100px;
+}
+
+/* Negative Margin */
+.negative-wrapper {
+    margin-bottom: 50px;
+}
+
+.negative-green {
+    height: 120px;
+    background-color: #5EA45C;
+}
+
+.negative-blue {
+    height: 120px;
+    background-color: #3B63A8;
+    margin-top: -40px;
+    opacity: 0.85;
+}
+
+/* Текстові блоки */
+.text-box {
+    background-color: #5EA45C;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.width-box {
+    width: 450px;
+}
+
+.max-width-box {
+    max-width: 600px;
+}
+
+.min-width-box {
+    min-width: 600px;
+}
+
+.height-box {
+    height: 250px;
+}
+
+.max-height-box {
+    max-height: 80px;
+}
+
+.min-height-box {
+    min-height: 120px;
+}
+
+/* Overflow */
+.overflow-box {
+    width: 100%;
+    height: 120px;
+    background-color: #5EA45C;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
